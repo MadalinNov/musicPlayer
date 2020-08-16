@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <link rel="icon" type="image/png" href="images\favicon.png">
+  <meta charset="utf-8">
+  <title profile=images\favicon.png>Unlimited Music | Home</title>
+  <!-- FONTAWESOME -->
+  <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+  <!-- GOOGLE FONTS -->
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <!-- BOOTSTRAP -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <!-- CSS Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="index__page">
+    <div class="container">
+      <!-- NAVBAR -->
+
+
+
+      <div class="navbar">
+        <div id="logo">
+          <h1 class='logo'>Un<u>limit</u>ed </h1>
+          <p class='logo'>Music</p>
+        </div>
+
+        <div id='menu'>
+          <h1 class='menu'>Menu</h1>
+        </div>
+        <div class="nav__tabs">
+          <div class=" sign__in">
+            <button class="nav__button nav__button3" type="button" name="button"><a class="nav__link" href="">sign in</a></button>
+          </div>
+          <button class="nav__button nav__button1" type="button" name="button"><a class="nav__link" href="index.html">music</a></button>
+          <button class="nav__button nav__button2" type="button" name="button"><a class="nav__link" href="index.html">home</a></button>
+        </div>
+      </div>
+
+
+
+      <!--SIDEBAR-->
+
+
+
+      <div class="sidebar">
+        <div id='menu-sidebar'>
+          <h1 class='sidebar_menu'>Close</h1>
+        </div>
+        <button class="sidebar__button sidebar__button3" type="button" name="button"><a class="sidebar__link" href="">sign in</a></button>
+        <button class="sidebar__button sidebar__button1" type="button" name="button"><a class="sidebar__link" href="index.html">music</a></button>
+        <button class="sidebar__button sidebar__button2" type="button" name="button"><a class="sidebar__link" href="index.html">home</a></button>
+      </div>
+      <!-- INDEX PAGE -->
+      <h1 class="intro__text">All your favourite music within one click</h1>
+      <div class="scroll">
+        <a href="#player">
+          <p class="scroll__down"><i class="faws__arrow fas fa-long-arrow-alt-down"></i></p>
+          <p>scroll</p>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- PLAYER -->
+
+  <section id='player'>
+    <div class='container'>
+      <div class='player'>
+        <div id="song__title">
+          <p class="song__title">Song Title</p>
+        </div>
+        <video loop poster="images\poster.jpg" class="visualizer" src="visualizer\visualizer-lq.mp4"></video>
+        <audio src="songs\Splashin Remix - Rich The Kid, Chris Brown, Tyga, G-Eazy, Belly [Nitin Randhawa Remix].mp3">Splashin Remix - Rich The Kid, Chris Brown, Tyga, G-Eazy, Belly [Nitin Randhawa Remix]</audio>
+        <audio src="songs\Migos - Notice Me ft. Post Malone (Audio).mp3">Migos - Notice Me ft. Post Malone </audio>
+        <audio src="songs\Lil Baby - Out The Mud ft. Future (Official Music Video).mp3">Lil Baby - Out The Mud ft. Future (Official Music Video)</audio>
+        <audio src="songs\Don Toliver - No Idea [Official Music Video].mp3">Don Toliver - No Idea [Official Music Video]</audio>
+        <audio src="songs\Criss Blaziny feat. Connect-R & Bvcovia - JCole.mp3">Criss Blaziny feat. Connect-R & Bvcovia - JCole</audio>
+        <audio src="songs\Connect-R - Am Sosul Ala Official Video.mp3">Connect-R - Am Sosul Ala Official Video</audio>
+        <audio src="songs\Connect-R feat. Randi - De Vorba Cu Mine Official Video.mp3">Connect-R feat. Randi - De Vorba Cu Mine Official Video</audio>
+      </div>
+      <div class="progress__container">
+        <div class='progress__bar'>
+          <div class="full_bar">
+          </div>
+        </div>
+        <div class="timer">
+          <div class="audioTotalDuration">00:00</div>
+          <div class="audioPastTime">00:00</div>
+        </div>
+      </div>
+
+      <div class='controls'>
+        <div class="row">
+          <button class='prev__btn col-md-4 col-4'><i class="fas fa-backward"></i></button>
+          <button class='play__btn col-md-4 col-4'><i class="fas fa-play"></i></button>
+          <button class='pause__btn col-md-4 col-4'><i class="fas fa-pause"></i></button>
+          <button class='next__btn col-md-4 col-4'><i class="fas fa-forward"></i></button>
+        </div>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <p>All Rights Reserved. © 2020 Madalin Novac </p>
+  </footer>
+  <script src="app.js" charset="utf-8"></script>
+</body>
+
+</html>
